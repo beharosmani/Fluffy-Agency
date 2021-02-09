@@ -431,6 +431,11 @@ color: #FFFFFF;
   
  .contact-form__body input,textarea{
   width:371px;
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-left-style: hidden;
+   border-bottom-style: groove;
+   background: #11364E;
 }
 .input-group{
   display:flex;
@@ -463,8 +468,7 @@ cursor: pointer;
 	margin-left:535px;
 }
 
-.contact-form__body input:focus{
-	background-color:#fff;
+.contact-form__body input:focus,textarea:focus{
     outline:none;
 }
 .contact-form__footer input[type="submit"]:focus {
